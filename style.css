@@ -33,7 +33,8 @@
   background: var(--warning);
 }
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  background: #c5e3f6;
 }
 /* =============
 header and nav
@@ -193,6 +194,7 @@ Learn Section
   padding: 10px;
   border: none;
   font-size: 1.8em;
+  background: transparent;
 }
 .learn label img {
   width: 40px;
@@ -299,4 +301,11 @@ Subjects Section
 .subject-wrapper .online-course {
   background: transparent;
   padding: 10px 25px;
+  border: 1px solid var(--gray-dark);
+}
+.subject-wrapper .online-course a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  color: var(--gray);
 }
